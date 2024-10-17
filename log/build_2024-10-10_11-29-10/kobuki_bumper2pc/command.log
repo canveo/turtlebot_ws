@@ -1,0 +1,4 @@
+Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_bumper2pc -- -j8 -l8
+Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc' returned '0': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_bumper2pc -- -j8 -l8
+Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_bumper2pc
+Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc' returned '0': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_bumper2pc

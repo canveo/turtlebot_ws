@@ -1,0 +1,67 @@
+[0.029s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/kobuki_random_walker
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.291s] -- The CXX compiler identification is GNU 11.4.0
+[0.305s] -- Detecting C compiler ABI info
+[0.432s] -- Detecting C compiler ABI info - done
+[0.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.448s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.453s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.636s] -- Detecting CXX compile features
+[0.636s] -- Detecting CXX compile features - done
+[0.639s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.947s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.075s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.125s] -- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.187s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.203s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.451s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/iron/share/kobuki_ros_interfaces/cmake)
+[1.853s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[2.188s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.196s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.593s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.685s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.864s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.816s] -- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)
+[4.751s] -- Configuring done
+[4.831s] -- Generating done
+[4.838s] -- Build files have been written to: /home/canveo/turtlebot_ws/build/kobuki_random_walker
+[4.896s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/kobuki_ros/kobuki_random_walker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/kobuki_random_walker
+[4.907s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_random_walker -- -j8 -l8
+[5.105s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
+[5.124s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker_node.dir/rclcpp_components/node_main_kobuki_random_walker_node.cpp.o[0m
+[17.916s] [ 75%] [32m[1mLinking CXX executable kobuki_random_walker_node[0m
+[18.291s] [ 75%] Built target kobuki_random_walker_node
+[48.551s] [100%] [32m[1mLinking CXX shared library libkobuki_random_walker.so[0m
+[51.552s] [100%] Built target kobuki_random_walker
+[51.600s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_random_walker -- -j8 -l8
+[51.726s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_random_walker
+[51.762s] -- Install configuration: ""
+[51.767s] -- Execute custom install script
+[51.768s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/lib/kobuki_random_walker/kobuki_random_walker_node
+[51.807s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/lib/libkobuki_random_walker.so
+[51.853s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/include/kobuki_random_walker/random_walker.hpp
+[51.892s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/random_walker_app.launch
+[51.927s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/safe_random_walker_app.launch
+[51.955s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/standalone.launch
+[51.987s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/ament_index/resource_index/package_run_dependencies/kobuki_random_walker
+[52.025s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/ament_index/resource_index/parent_prefix_path/kobuki_random_walker
+[52.061s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.sh
+[52.099s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.dsv
+[52.137s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.sh
+[52.175s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.dsv
+[52.212s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.bash
+[52.246s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.sh
+[52.284s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.zsh
+[52.323s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.dsv
+[52.361s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/package.dsv
+[52.382s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/ament_index/resource_index/packages/kobuki_random_walker
+[52.420s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/ament_index/resource_index/rclcpp_components/kobuki_random_walker
+[52.452s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake
+[52.488s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake
+[52.525s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_random_walker/share/kobuki_random_walker/package.xml
+[52.565s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_random_walker

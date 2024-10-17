@@ -1,0 +1,1 @@
+/home/canveo/turtlebot_ws/build/kobuki_safety_controller/ament_cmake_environment_hooks/local_setup.bash

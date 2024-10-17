@@ -1,0 +1,23 @@
+# Ignorar archivos de compilación
+build/
+install/
+log/
+
+# Archivos de configuración de colcon
+.colcon/
+
+# Archivos temporales del sistema
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Archivos específicos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos generados por IDEs
+.vscode/
+.idea/

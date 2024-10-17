@@ -1,0 +1,1 @@
+/home/canveo/turtlebot_ws/build/kobuki_velocity_smoother/ament_cmake_core/kobuki_velocity_smootherConfig-version.cmake

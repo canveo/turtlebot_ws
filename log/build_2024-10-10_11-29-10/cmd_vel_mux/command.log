@@ -1,0 +1,4 @@
+Invoking command in '/home/canveo/turtlebot_ws/build/cmd_vel_mux': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/cmd_vel_mux -- -j8 -l8
+Invoked command in '/home/canveo/turtlebot_ws/build/cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/cmd_vel_mux -- -j8 -l8
+Invoking command in '/home/canveo/turtlebot_ws/build/cmd_vel_mux': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/cmd_vel_mux
+Invoked command in '/home/canveo/turtlebot_ws/build/cmd_vel_mux' returned '0': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/cmd_vel_mux

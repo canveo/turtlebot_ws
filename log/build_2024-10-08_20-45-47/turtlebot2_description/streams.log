@@ -1,0 +1,102 @@
+[0.053s] Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_description
+[0.224s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.494s] -- Found xacro: 2.0.11 (/opt/ros/iron/share/xacro/cmake)
+[0.495s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.627s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.627s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.632s] -- Added test 'lint_cmake' to check CMake code style
+[0.632s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.636s] -- Added test 'xmllint' to check XML markup files
+[0.638s] -- Configuring done
+[0.647s] -- Generating done
+[0.652s] -- Build files have been written to: /home/canveo/turtlebot_ws/build/turtlebot2_description
+[0.672s] Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_description
+[0.675s] Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_description -- -j8 -l8
+[0.727s] Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_description -- -j8 -l8
+[0.780s] Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_description
+[0.795s] -- Install configuration: ""
+[0.795s] -- Execute custom install script
+[0.795s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/launch/turtlebot2_description.launch.py
+[0.811s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/common_properties.urdf.xacro
+[0.827s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/0_xtion_pro.jpg
+[0.838s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/astra.dae
+[0.860s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/astra.jpg
+[0.880s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/asus_xtion_pro_live.dae
+[0.900s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/asus_xtion_pro_live.png
+[0.915s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/kinect.dae
+[0.931s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/kinect.jpg
+[0.948s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/kinect.tga
+[0.964s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/r200.dae
+[0.976s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/r200.jpg
+[0.991s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/r200_bracket.stl
+[1.002s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/r200_bracket_end.stl
+[1.017s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/xtion_pro.jpg
+[1.032s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/xtion_pro_camera.dae
+[1.045s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/xtion_pro_camera.jpg
+[1.055s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/sensors/xtion_pro_stack.dae
+[1.067s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-02403-125_Spacer.dae
+[1.078s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff.dae
+[1.091s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+[1.103s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff.dae
+[1.114s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+[1.126s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff.dae
+[1.141s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+[1.152s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.3ds
+[1.163s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.dae
+[1.175s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/plate_0_logo.dae
+[1.185s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/plate_0_logo.tga
+[1.195s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/plate_1_logo.dae
+[1.205s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/plate_1_logo.tga
+[1.216s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/plate_2_logo.dae
+[1.228s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/circles/plate_2_logo.tga
+[1.239s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/1f_pole.jpg
+[1.251s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/1f_stack.jpg
+[1.260s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/2f_pole.jpg
+[1.277s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/2f_stack.jpg
+[1.294s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/3f_pole.jpg
+[1.310s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/3f_stack.jpg
+[1.325s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/3f_stack1.jpg
+[1.336s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/kinect_pole.jpg
+[1.348s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/images/kinect_pole_old.jpg
+[1.358s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/plate_bottom.dae
+[1.368s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/plate_middle.dae
+[1.379s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/plate_simple.stl
+[1.390s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/plate_simple_ascii.stl
+[1.400s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/plate_top.dae
+[1.411s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/pole_bottom.dae
+[1.423s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/pole_kinect.dae
+[1.433s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/pole_middle.dae
+[1.444s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/meshes/stacks/hexagons/pole_top.dae
+[1.454s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/robots/kobuki_hexagons_astra.urdf.xacro
+[1.464s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/robots/kobuki_hexagons_asus_xtion_pro.urdf.xacro
+[1.474s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/robots/kobuki_hexagons_asus_xtion_pro_offset.urdf.xacro
+[1.485s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/robots/kobuki_hexagons_kinect.urdf.xacro
+[1.495s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/robots/kobuki_hexagons_r200.urdf.xacro
+[1.504s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/sensors/astra.urdf.xacro
+[1.514s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/sensors/kinect.urdf.xacro
+[1.524s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/sensors/r200.urdf.xacro
+[1.534s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/sensors/xtion_pro.urdf.xacro
+[1.543s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/stacks/circles.urdf.xacro
+[1.554s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/stacks/hexagons.urdf.xacro
+[1.564s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/turtlebot2_description.urdf
+[1.573s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/turtlebot_common_library.urdf.xacro
+[1.584s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/turtlebot_gazebo.urdf.xacro
+[1.594s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/urdf/turtlebot_properties.urdf.xacro
+[1.604s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/ament_index/resource_index/package_run_dependencies/turtlebot2_description
+[1.614s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/ament_index/resource_index/parent_prefix_path/turtlebot2_description
+[1.625s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/environment/ament_prefix_path.sh
+[1.635s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/environment/ament_prefix_path.dsv
+[1.645s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/environment/path.sh
+[1.655s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/environment/path.dsv
+[1.665s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/local_setup.bash
+[1.675s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/local_setup.sh
+[1.686s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/local_setup.zsh
+[1.696s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/local_setup.dsv
+[1.707s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.dsv
+[1.717s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/ament_index/resource_index/packages/turtlebot2_description
+[1.727s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/cmake/turtlebot2_descriptionConfig.cmake
+[1.737s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/cmake/turtlebot2_descriptionConfig-version.cmake
+[1.747s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.xml
+[1.759s] Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_description

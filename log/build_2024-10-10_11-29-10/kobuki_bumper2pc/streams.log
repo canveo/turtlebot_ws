@@ -1,0 +1,28 @@
+[0.039s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_bumper2pc -- -j8 -l8
+[0.175s] [ 75%] Built target kobuki_bumper2pc
+[0.175s] [100%] Built target kobuki_bumper2pc_node
+[0.216s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc' returned '0': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_bumper2pc -- -j8 -l8
+[0.300s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_bumper2pc
+[0.353s] -- Install configuration: ""
+[0.353s] -- Execute custom install script
+[0.353s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[0.354s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[0.354s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[0.354s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[0.355s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[0.355s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[0.355s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[0.356s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[0.356s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[0.357s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[0.357s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[0.357s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[0.358s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[0.362s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[0.362s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[0.362s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[0.367s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[0.367s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[0.414s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_bumper2pc' returned '0': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_bumper2pc

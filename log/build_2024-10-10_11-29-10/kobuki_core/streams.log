@@ -1,0 +1,115 @@
+[0.031s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_core': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_core -- -j8 -l8
+[0.198s] [ 41%] Built target kobuki_core
+[0.266s] [ 47%] Built target kobuki_core_demo_buttons
+[0.279s] [ 52%] Built target kobuki_core_demo_raw_data_stream
+[0.282s] [ 61%] Built target kobuki_core_demo_data_stream
+[0.284s] [ 64%] Built target kobuki_core_demo_custom_logging
+[0.284s] [ 70%] Built target kobuki_core_demo_velocity_commands
+[0.285s] [ 76%] Built target kobuki_core_demo_chirp
+[0.296s] [ 88%] Built target kobuki_core_demo_simple_loop
+[0.296s] [ 88%] Built target kobuki_core_demo_log_levels
+[0.347s] [ 94%] Built target kobuki_core_tool_version_info
+[0.367s] [100%] Built target kobuki_core_tool_simple_keyop
+[0.419s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_core' returned '0': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_core -- -j8 -l8
+[0.511s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_core': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_core
+[0.525s] -- Install configuration: ""
+[0.525s] -- Execute custom install script
+[0.526s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/command.hpp
+[0.526s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+[0.526s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/event_manager.hpp
+[0.526s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/kobuki.hpp
+[0.526s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/logging.hpp
+[0.527s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/macros.hpp
+[0.527s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules.hpp
+[0.527s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+[0.527s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+[0.527s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+[0.528s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+[0.528s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+[0.528s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+[0.529s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+[0.529s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+[0.529s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+[0.529s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets.hpp
+[0.530s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+[0.530s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+[0.530s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+[0.531s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/current.hpp
+[0.532s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+[0.532s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+[0.533s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+[0.533s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+[0.533s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+[0.534s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+[0.534s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+[0.534s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+[0.534s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/parameters.hpp
+[0.535s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/version_info.hpp
+[0.535s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_buttons
+[0.535s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_chirp
+[0.536s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_custom_logging
+[0.536s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_data_stream
+[0.537s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_log_levels
+[0.537s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_raw_data_stream
+[0.537s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_simple_loop
+[0.538s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_velocity_commands
+[0.538s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/bin/kobuki-version-info
+[0.538s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/bin/kobuki-simple-keyop
+[0.538s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/CMakeLists.txt
+[0.539s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/command.hpp
+[0.539s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+[0.539s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/event_manager.hpp
+[0.540s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/kobuki.hpp
+[0.540s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/logging.hpp
+[0.540s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/macros.hpp
+[0.540s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules.hpp
+[0.541s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+[0.541s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+[0.541s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+[0.541s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+[0.542s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+[0.543s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+[0.543s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+[0.543s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+[0.544s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+[0.544s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets.hpp
+[0.544s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+[0.544s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/current.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+[0.545s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+[0.546s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+[0.546s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+[0.546s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+[0.546s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/parameters.hpp
+[0.546s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/version_info.hpp
+[0.547s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/library_path.sh
+[0.547s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/library_path.dsv
+[0.547s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+[0.547s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+[0.547s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.sh
+[0.547s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.dsv
+[0.548s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/path.sh
+[0.548s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/path.dsv
+[0.549s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.bash
+[0.549s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.sh
+[0.549s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.zsh
+[0.550s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.dsv
+[0.550s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/package.dsv
+[0.550s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/ament_index/resource_index/packages/kobuki_core
+[0.550s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+[0.551s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.551s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.551s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+[0.551s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+[0.551s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+[0.552s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/package.xml
+[0.552s] -- Up-to-date: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+[0.552s] -- Up-to-date: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+[0.552s] -- Up-to-date: /home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+[0.553s] -- Up-to-date: /home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so
+[0.779s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_core' returned '0': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_core

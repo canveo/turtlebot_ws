@@ -1,0 +1,1 @@
+/home/canveo/turtlebot_ws/build/kobuki_random_walker/ament_cmake_environment_hooks/local_setup.bash

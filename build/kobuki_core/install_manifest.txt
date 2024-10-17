@@ -1,0 +1,4 @@
+/home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+/home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+/home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+/home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so

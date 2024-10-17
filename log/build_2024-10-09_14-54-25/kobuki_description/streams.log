@@ -1,0 +1,31 @@
+[0.063s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_description -- -j8 -l8
+[0.174s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_description -- -j8 -l8
+[0.287s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_description
+[0.317s] -- Install configuration: ""
+[0.317s] -- Execute custom install script
+[0.321s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/launch/robot_description.launch.py
+[0.321s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/meshes/images/main_body.jpg
+[0.322s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/meshes/images/wheel.jpg
+[0.322s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/meshes/main_body.dae
+[0.323s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/meshes/wheel.dae
+[0.324s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/rviz/model.rviz
+[0.324s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/urdf/common_properties.urdf.xacro
+[0.327s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/urdf/kobuki.urdf.xacro
+[0.328s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/urdf/kobuki_gazebo.urdf.xacro
+[0.329s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/urdf/kobuki_standalone.urdf.xacro
+[0.331s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/ament_index/resource_index/package_run_dependencies/kobuki_description
+[0.334s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/ament_index/resource_index/parent_prefix_path/kobuki_description
+[0.334s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.sh
+[0.335s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.dsv
+[0.335s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/environment/path.sh
+[0.335s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/environment/path.dsv
+[0.336s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/local_setup.bash
+[0.336s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/local_setup.sh
+[0.336s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/local_setup.zsh
+[0.340s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/local_setup.dsv
+[0.345s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/package.dsv
+[0.359s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/ament_index/resource_index/packages/kobuki_description
+[0.359s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+[0.359s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+[0.359s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_description/share/kobuki_description/package.xml
+[0.403s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_description

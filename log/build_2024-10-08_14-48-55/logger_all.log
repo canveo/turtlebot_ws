@@ -1,0 +1,346 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtlebot2_description', 'turtlebot2_bringup']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtlebot2_description', 'turtlebot2_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x769f231f9ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x769f231f9510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x769f231f9510>>, mixin_verb=('build',))
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.380s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/canveo/turtlebot_ws'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_vel_mux' with type 'ros.ament_cmake' and name 'cmd_vel_mux'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_core) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_core' with type 'ros.ament_cmake' and name 'kobuki_core'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_auto_docking) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_auto_docking' with type 'ros.ament_cmake' and name 'kobuki_auto_docking'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_bumper2pc) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_bumper2pc' with type 'ros.ament_cmake' and name 'kobuki_bumper2pc'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_controller_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_controller_tutorial) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_controller_tutorial) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_description) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_description' with type 'ros.ament_cmake' and name 'kobuki_description'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_keyop) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_keyop' with type 'ros.ament_cmake' and name 'kobuki_keyop'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_node) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_node' with type 'ros.ament_cmake' and name 'kobuki_node'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_random_walker) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_random_walker' with type 'ros.ament_cmake' and name 'kobuki_random_walker'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_ros) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_ros' with type 'ros.ament_cmake' and name 'kobuki_ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_safety_controller) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kobuki_ros/kobuki_safety_controller' with type 'ros.ament_cmake' and name 'kobuki_safety_controller'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_testsuite) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_testsuite) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/kobuki_ros/kobuki_testsuite) ignored
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_bringup) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot2_bringup' with type 'ros.ament_cmake' and name 'turtlebot2_bringup'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot2_description) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot2_description' with type 'ros.ament_cmake' and name 'turtlebot2_description'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/velocity_smoother) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/velocity_smoother' with type 'ros.ament_cmake' and name 'kobuki_velocity_smoother'
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cmd_vel_mux' in 'src/cmd_vel_mux'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_bumper2pc' in 'src/kobuki_ros/kobuki_bumper2pc'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_core' in 'src/kobuki_core'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_description' in 'src/kobuki_ros/kobuki_description'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_random_walker' in 'src/kobuki_ros/kobuki_random_walker'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_safety_controller' in 'src/kobuki_ros/kobuki_safety_controller'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_velocity_smoother' in 'src/velocity_smoother'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_auto_docking' in 'src/kobuki_ros/kobuki_auto_docking'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_keyop' in 'src/kobuki_ros/kobuki_keyop'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_node' in 'src/kobuki_ros/kobuki_node'
+[0.456s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kobuki_ros' in 'src/kobuki_ros/kobuki_ros'
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/canveo/turtlebot_ws/install
+[0.462s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/iron
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/canveo/turtlebot_ws/build/turtlebot2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/canveo/turtlebot_ws/install/turtlebot2_description', 'merge_install': False, 'path': '/home/canveo/turtlebot_ws/src/turtlebot2_description', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'turtlebot2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/canveo/turtlebot_ws/build/turtlebot2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/canveo/turtlebot_ws/install/turtlebot2_bringup', 'merge_install': False, 'path': '/home/canveo/turtlebot_ws/src/turtlebot2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.517s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/canveo/turtlebot_ws/src/turtlebot2_description' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/canveo/turtlebot_ws/src/turtlebot2_description'
+[0.521s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_description -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_description
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_description -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_description
+[1.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_description -- -j8 -l8
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_description -- -j8 -l8
+[1.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_description
+[1.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot2_description)
+[1.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_description
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description' for CMake module files
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description' for CMake config files
+[1.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot2_description', 'cmake_prefix_path')
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/hook/cmake_prefix_path.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/hook/cmake_prefix_path.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/hook/cmake_prefix_path.sh'
+[1.395s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/bin'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/lib/pkgconfig/turtlebot2_description.pc'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/lib/python3.10/site-packages'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/bin'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.dsv'
+[1.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.sh'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.bash'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.zsh'
+[1.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/canveo/turtlebot_ws/install/turtlebot2_description/share/colcon-core/packages/turtlebot2_description)
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot2_description)
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description' for CMake module files
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot2_description', 'cmake_prefix_path')
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/hook/cmake_prefix_path.ps1'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/hook/cmake_prefix_path.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/hook/cmake_prefix_path.sh'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/bin'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/lib/pkgconfig/turtlebot2_description.pc'
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/lib/python3.10/site-packages'
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_description/bin'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.bash'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_description/share/turtlebot2_description/package.zsh'
+[1.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/canveo/turtlebot_ws/install/turtlebot2_description/share/colcon-core/packages/turtlebot2_description)
+[1.465s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/canveo/turtlebot_ws/src/turtlebot2_bringup' with build type 'ament_cmake'
+[1.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/canveo/turtlebot_ws/src/turtlebot2_bringup'
+[1.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_bringup': AMENT_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:/home/canveo/turtlebot_ws/install/kobuki_ros:/home/canveo/turtlebot_ws/install/kobuki_keyop:/home/canveo/turtlebot_ws/install/kobuki_velocity_smoother:/home/canveo/turtlebot_ws/install/kobuki_safety_controller:/home/canveo/turtlebot_ws/install/kobuki_random_walker:/home/canveo/turtlebot_ws/install/kobuki_node:/home/canveo/turtlebot_ws/install/kobuki_description:/home/canveo/turtlebot_ws/install/kobuki_auto_docking:/home/canveo/turtlebot_ws/install/kobuki_core:/home/canveo/turtlebot_ws/install/kobuki_bumper2pc:/home/canveo/turtlebot_ws/install/cmd_vel_mux:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_bringup -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_bringup
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_bringup' returned '0': AMENT_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:/home/canveo/turtlebot_ws/install/kobuki_ros:/home/canveo/turtlebot_ws/install/kobuki_keyop:/home/canveo/turtlebot_ws/install/kobuki_velocity_smoother:/home/canveo/turtlebot_ws/install/kobuki_safety_controller:/home/canveo/turtlebot_ws/install/kobuki_random_walker:/home/canveo/turtlebot_ws/install/kobuki_node:/home/canveo/turtlebot_ws/install/kobuki_description:/home/canveo/turtlebot_ws/install/kobuki_auto_docking:/home/canveo/turtlebot_ws/install/kobuki_core:/home/canveo/turtlebot_ws/install/kobuki_bumper2pc:/home/canveo/turtlebot_ws/install/cmd_vel_mux:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_bringup -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_bringup
+[2.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_bringup': AMENT_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:/home/canveo/turtlebot_ws/install/kobuki_ros:/home/canveo/turtlebot_ws/install/kobuki_keyop:/home/canveo/turtlebot_ws/install/kobuki_velocity_smoother:/home/canveo/turtlebot_ws/install/kobuki_safety_controller:/home/canveo/turtlebot_ws/install/kobuki_random_walker:/home/canveo/turtlebot_ws/install/kobuki_node:/home/canveo/turtlebot_ws/install/kobuki_description:/home/canveo/turtlebot_ws/install/kobuki_auto_docking:/home/canveo/turtlebot_ws/install/kobuki_core:/home/canveo/turtlebot_ws/install/kobuki_bumper2pc:/home/canveo/turtlebot_ws/install/cmd_vel_mux:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_bringup -- -j8 -l8
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_bringup' returned '0': AMENT_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:/home/canveo/turtlebot_ws/install/kobuki_ros:/home/canveo/turtlebot_ws/install/kobuki_keyop:/home/canveo/turtlebot_ws/install/kobuki_velocity_smoother:/home/canveo/turtlebot_ws/install/kobuki_safety_controller:/home/canveo/turtlebot_ws/install/kobuki_random_walker:/home/canveo/turtlebot_ws/install/kobuki_node:/home/canveo/turtlebot_ws/install/kobuki_description:/home/canveo/turtlebot_ws/install/kobuki_auto_docking:/home/canveo/turtlebot_ws/install/kobuki_core:/home/canveo/turtlebot_ws/install/kobuki_bumper2pc:/home/canveo/turtlebot_ws/install/cmd_vel_mux:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_bringup -- -j8 -l8
+[2.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_bringup': AMENT_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:/home/canveo/turtlebot_ws/install/kobuki_ros:/home/canveo/turtlebot_ws/install/kobuki_keyop:/home/canveo/turtlebot_ws/install/kobuki_velocity_smoother:/home/canveo/turtlebot_ws/install/kobuki_safety_controller:/home/canveo/turtlebot_ws/install/kobuki_random_walker:/home/canveo/turtlebot_ws/install/kobuki_node:/home/canveo/turtlebot_ws/install/kobuki_description:/home/canveo/turtlebot_ws/install/kobuki_auto_docking:/home/canveo/turtlebot_ws/install/kobuki_core:/home/canveo/turtlebot_ws/install/kobuki_bumper2pc:/home/canveo/turtlebot_ws/install/cmd_vel_mux:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_bringup
+[2.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot2_bringup)
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup' for CMake module files
+[2.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_bringup' returned '0': AMENT_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/canveo/turtlebot_ws/install/turtlebot2_description:/home/canveo/turtlebot_ws/install/kobuki_ros:/home/canveo/turtlebot_ws/install/kobuki_keyop:/home/canveo/turtlebot_ws/install/kobuki_velocity_smoother:/home/canveo/turtlebot_ws/install/kobuki_safety_controller:/home/canveo/turtlebot_ws/install/kobuki_random_walker:/home/canveo/turtlebot_ws/install/kobuki_node:/home/canveo/turtlebot_ws/install/kobuki_description:/home/canveo/turtlebot_ws/install/kobuki_auto_docking:/home/canveo/turtlebot_ws/install/kobuki_core:/home/canveo/turtlebot_ws/install/kobuki_bumper2pc:/home/canveo/turtlebot_ws/install/cmd_vel_mux:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_bringup
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup' for CMake config files
+[2.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot2_bringup', 'cmake_prefix_path')
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/hook/cmake_prefix_path.ps1'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/hook/cmake_prefix_path.dsv'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/hook/cmake_prefix_path.sh'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/bin'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/lib/pkgconfig/turtlebot2_bringup.pc'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/lib/python3.10/site-packages'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/bin'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.ps1'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.sh'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.bash'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.zsh'
+[2.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/colcon-core/packages/turtlebot2_bringup)
+[2.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot2_bringup)
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup' for CMake module files
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot2_bringup', 'cmake_prefix_path')
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/hook/cmake_prefix_path.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/hook/cmake_prefix_path.dsv'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/hook/cmake_prefix_path.sh'
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/bin'
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/lib/pkgconfig/turtlebot2_bringup.pc'
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/lib/python3.10/site-packages'
+[2.262s] Level 1:colcon.colcon_core.environment:checking '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/bin'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.ps1'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.dsv'
+[2.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.sh'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.bash'
+[2.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/turtlebot2_bringup/package.zsh'
+[2.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/canveo/turtlebot_ws/install/turtlebot2_bringup/share/colcon-core/packages/turtlebot2_bringup)
+[2.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.265s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.271s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.291s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/canveo/turtlebot_ws/install/local_setup.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/canveo/turtlebot_ws/install/_local_setup_util_ps1.py'
+[2.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/canveo/turtlebot_ws/install/setup.ps1'
+[2.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/canveo/turtlebot_ws/install/local_setup.sh'
+[2.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/canveo/turtlebot_ws/install/_local_setup_util_sh.py'
+[2.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/canveo/turtlebot_ws/install/setup.sh'
+[2.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/canveo/turtlebot_ws/install/local_setup.bash'
+[2.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/canveo/turtlebot_ws/install/setup.bash'
+[2.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/canveo/turtlebot_ws/install/local_setup.zsh'
+[2.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/canveo/turtlebot_ws/install/setup.zsh'

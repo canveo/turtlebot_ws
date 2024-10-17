@@ -1,0 +1,199 @@
+[0.025s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_core': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/kobuki_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/kobuki_core
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.447s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.470s] -- Detecting C compile features - done
+[0.475s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.634s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.645s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.976s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.098s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.143s] -- Found ecl_build: 1.0.3 (/opt/ros/iron/share/ecl_build/cmake)
+[1.159s] -- Found ecl_command_line: 1.2.1 (/opt/ros/iron/share/ecl_command_line/cmake)
+[1.161s] -- Found ecl_config: 1.2.0 (/opt/ros/iron/share/ecl_config/cmake)
+[1.167s] -- Found ecl_console: 1.2.0 (/opt/ros/iron/share/ecl_console/cmake)
+[1.172s] -- Found ecl_converters: 1.2.1 (/opt/ros/iron/share/ecl_converters/cmake)
+[1.213s] -- Found ecl_devices: 1.2.1 (/opt/ros/iron/share/ecl_devices/cmake)
+[1.251s] -- Looking for pthread.h
+[1.390s] -- Looking for pthread.h - found
+[1.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.514s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.514s]   The package name passed to `find_package_handle_standard_args` (Threads)
+[1.515s]   does not match the name of the calling package (ecl_threads).  This can
+[1.515s]   lead to problems in calling code that expects `find_package` result
+[1.515s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.515s] Call Stack (most recent call first):
+[1.515s]   /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[1.515s]   /opt/ros/iron/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+[1.515s]   /opt/ros/iron/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+[1.515s]   /opt/ros/iron/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+[1.516s]   /opt/ros/iron/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.516s]   /opt/ros/iron/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+[1.516s]   CMakeLists.txt:23 (find_package)
+[1.516s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.516s] [0m
+[1.516s] -- Found Threads: TRUE  
+[1.544s] -- Found ecl_geometry: 1.2.1 (/opt/ros/iron/share/ecl_geometry/cmake)
+[1.607s] -- Found ecl_mobile_robot: 1.2.1 (/opt/ros/iron/share/ecl_mobile_robot/cmake)
+[1.617s] -- Found ecl_sigslots: 1.2.1 (/opt/ros/iron/share/ecl_sigslots/cmake)
+[1.762s] -- Configuring done
+[1.819s] -- Generating done
+[1.823s] -- Build files have been written to: /home/canveo/turtlebot_ws/build/kobuki_core
+[1.841s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/kobuki_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/kobuki_core
+[1.841s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_core': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_core -- -j8 -l8
+[1.913s] [  2%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/battery.cpp.o[0m
+[1.913s] [  5%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/command.cpp.o[0m
+[1.914s] [  8%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/core_sensors.cpp.o[0m
+[1.930s] [ 11%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/diff_drive.cpp.o[0m
+[1.930s] [ 14%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive.cpp.o[0m
+[1.938s] [ 17%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_debug.cpp.o[0m
+[1.938s] [ 20%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/dock_drive_states.cpp.o[0m
+[1.943s] [ 23%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/event_manager.cpp.o[0m
+[3.338s] [ 26%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/firmware.cpp.o[0m
+[3.493s] [ 29%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/kobuki.cpp.o[0m
+[4.286s] [ 32%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/logging.cpp.o[0m
+[5.073s] [ 35%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/packet_finder.cpp.o[0m
+[7.763s] [ 38%] [32mBuilding CXX object src/driver/CMakeFiles/kobuki_core.dir/__/__/version_info.cpp.o[0m
+[17.981s] [ 41%] [32m[1mLinking CXX shared library libkobuki_core.so[0m
+[18.724s] [ 41%] Built target kobuki_core
+[18.782s] [ 44%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_chirp.dir/chirp.cpp.o[0m
+[18.791s] [ 47%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_buttons.dir/buttons.cpp.o[0m
+[18.793s] [ 50%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_data_stream.dir/data_stream.cpp.o[0m
+[18.795s] [ 52%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_log_levels.dir/log_levels.cpp.o[0m
+[18.795s] [ 55%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_custom_logging.dir/custom_logging.cpp.o[0m
+[18.812s] [ 58%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_simple_loop.dir/simple_loop.cpp.o[0m
+[18.813s] [ 61%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_velocity_commands.dir/velocity_commands.cpp.o[0m
+[18.818s] [ 64%] [32mBuilding CXX object src/demos/CMakeFiles/kobuki_core_demo_raw_data_stream.dir/raw_data_stream.cpp.o[0m
+[19.528s] [ 67%] [32m[1mLinking CXX executable demo_velocity_commands[0m
+[19.813s] [ 67%] Built target kobuki_core_demo_velocity_commands
+[19.893s] [ 70%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_version_info.dir/version_info.cpp.o[0m
+[29.848s] [ 73%] [32m[1mLinking CXX executable demo_log_levels[0m
+[30.799s] [ 73%] Built target kobuki_core_demo_log_levels
+[30.896s] [ 76%] [32mBuilding CXX object src/tools/CMakeFiles/kobuki_core_tool_simple_keyop.dir/simple_keyop.cpp.o[0m
+[31.610s] [ 79%] [32m[1mLinking CXX executable demo_chirp[0m
+[31.672s] [ 82%] [32m[1mLinking CXX executable demo_simple_loop[0m
+[32.182s] [ 82%] Built target kobuki_core_demo_chirp
+[32.192s] [ 82%] Built target kobuki_core_demo_simple_loop
+[32.752s] [ 85%] [32m[1mLinking CXX executable demo_data_stream[0m
+[32.944s] [ 88%] [32m[1mLinking CXX executable demo_raw_data_stream[0m
+[33.173s] [ 88%] Built target kobuki_core_demo_data_stream
+[33.348s] [ 88%] Built target kobuki_core_demo_raw_data_stream
+[34.313s] [ 91%] [32m[1mLinking CXX executable kobuki-version-info[0m
+[34.766s] [ 91%] Built target kobuki_core_tool_version_info
+[34.938s] [ 94%] [32m[1mLinking CXX executable demo_buttons[0m
+[35.255s] [ 94%] Built target kobuki_core_demo_buttons
+[35.551s] [ 97%] [32m[1mLinking CXX executable demo_custom_logging[0m
+[35.933s] [ 97%] Built target kobuki_core_demo_custom_logging
+[38.961s] [100%] [32m[1mLinking CXX executable kobuki-simple-keyop[0m
+[39.189s] [100%] Built target kobuki_core_tool_simple_keyop
+[39.208s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_core -- -j8 -l8
+[39.256s] Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_core': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_core
+[39.266s] -- Install configuration: ""
+[39.268s] -- Execute custom install script
+[39.269s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/command.hpp
+[39.282s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+[39.295s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/event_manager.hpp
+[39.308s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/kobuki.hpp
+[39.320s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/logging.hpp
+[39.333s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/macros.hpp
+[39.345s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules.hpp
+[39.358s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+[39.372s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+[39.385s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+[39.398s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+[39.411s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+[39.424s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+[39.437s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+[39.449s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+[39.462s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+[39.474s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets.hpp
+[39.487s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+[39.500s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+[39.514s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+[39.527s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/current.hpp
+[39.540s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+[39.553s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+[39.566s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+[39.578s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+[39.591s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+[39.603s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+[39.615s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+[39.628s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+[39.640s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/parameters.hpp
+[39.653s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/version_info.hpp
+[39.666s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_buttons
+[39.680s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_chirp
+[39.693s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_custom_logging
+[39.706s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_data_stream
+[39.719s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_log_levels
+[39.732s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_raw_data_stream
+[39.746s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_simple_loop
+[39.759s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/lib/kobuki_core/demo_velocity_commands
+[39.773s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/bin/kobuki-version-info
+[39.786s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/bin/kobuki-simple-keyop
+[39.799s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/include/CMakeLists.txt
+[39.812s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/command.hpp
+[39.812s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/dock_drive.hpp
+[39.812s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/event_manager.hpp
+[39.813s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/kobuki.hpp
+[39.813s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/logging.hpp
+[39.813s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/macros.hpp
+[39.813s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules.hpp
+[39.814s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/acceleration_limiter.hpp
+[39.814s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/battery.hpp
+[39.814s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/diff_drive.hpp
+[39.815s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/digital_output.hpp
+[39.815s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/led_array.hpp
+[39.815s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/modules/sound.hpp
+[39.815s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/packet_finder.hpp
+[39.816s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_base.hpp
+[39.816s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packet_handler/payload_headers.hpp
+[39.816s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets.hpp
+[39.816s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/cliff.hpp
+[39.817s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/controller_info.hpp
+[39.817s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/core_sensors.hpp
+[39.817s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/current.hpp
+[39.817s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/dock_ir.hpp
+[39.818s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/eeprom.hpp
+[39.818s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/firmware.hpp
+[39.818s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/gp_input.hpp
+[39.818s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/hardware.hpp
+[39.819s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/inertia.hpp
+[39.819s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/three_axis_gyro.hpp
+[39.819s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/packets/unique_device_id.hpp
+[39.819s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/parameters.hpp
+[39.820s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/kobuki_core/include/kobuki_core/version_info.hpp
+[39.820s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/library_path.sh
+[39.832s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/library_path.dsv
+[39.845s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/ament_index/resource_index/package_run_dependencies/kobuki_core
+[39.858s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/ament_index/resource_index/parent_prefix_path/kobuki_core
+[39.870s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.sh
+[39.883s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/ament_prefix_path.dsv
+[39.895s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/path.sh
+[39.907s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/environment/path.dsv
+[39.920s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.bash
+[39.933s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.sh
+[39.946s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.zsh
+[39.959s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/local_setup.dsv
+[39.972s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/package.dsv
+[39.985s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/ament_index/resource_index/packages/kobuki_core
+[39.998s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_targets-extras.cmake
+[40.010s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.022s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.035s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/ament_cmake_export_libraries-extras.cmake
+[40.048s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig.cmake
+[40.061s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreConfig-version.cmake
+[40.079s] -- Symlinking: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/package.xml
+[40.097s] -- Installing: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport.cmake
+[40.097s] -- Installing: /home/canveo/turtlebot_ws/install/kobuki_core/share/kobuki_core/cmake/kobuki_coreExport-noconfig.cmake
+[40.098s] -- Installing: /home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so.1.4.0
+[40.104s] -- Set runtime path of "/home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so.1.4.0" to ""
+[40.105s] -- Installing: /home/canveo/turtlebot_ws/install/kobuki_core/lib/libkobuki_core.so
+[40.110s] Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_core

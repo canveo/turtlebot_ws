@@ -1,0 +1,96 @@
+[0.011s] Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_gazebo -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_gazebo
+[0.040s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.226s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[0.266s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.277s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.489s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.878s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.880s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.888s] -- Searching for dependencies of ignition-math6
+[0.890s] -- Looking for OGRE...
+[0.897s] -- Found Ogre Ghadamon (1.9.0)
+[0.897s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.907s] -- Looking for OGRE_Paging...
+[0.907s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.908s] -- Looking for OGRE_Terrain...
+[0.908s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.908s] -- Looking for OGRE_Property...
+[0.908s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.908s] -- Looking for OGRE_RTShaderSystem...
+[0.908s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.908s] -- Looking for OGRE_Volume...
+[0.908s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.909s] -- Looking for OGRE_Overlay...
+[0.909s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.054s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.055s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.055s] -- Searching for dependencies of ignition-transport8
+[1.075s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.088s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.094s] -- Checking for module 'libzmq >= 4'
+[1.111s] --   Found libzmq , version 4.3.4
+[1.160s] -- Checking for module 'uuid'
+[1.177s] --   Found uuid, version 2.37.2
+[1.217s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.218s] -- Searching for dependencies of ignition-msgs5
+[1.242s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.248s] -- Checking for module 'tinyxml2'
+[1.265s] --   Found tinyxml2, version 9.0.0
+[1.307s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.308s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.309s] -- Searching for dependencies of ignition-common3
+[1.309s] -- Looking for dlfcn.h - found
+[1.309s] -- Looking for libdl - found
+[1.323s] -- Searching for <ignition-common3> component [graphics]
+[1.324s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.325s] -- Searching for dependencies of ignition-common3-graphics
+[1.325s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.327s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.327s] -- Searching for dependencies of ignition-fuel_tools4
+[1.374s] -- Checking for module 'jsoncpp'
+[1.391s] --   Found jsoncpp, version 1.9.5
+[1.438s] -- Checking for module 'libzip'
+[1.455s] --   Found libzip, version 1.7.3
+[1.495s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.495s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.495s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.498s] -- Gazebo version: 11.10
+[1.509s] -- Found xacro: 2.0.11 (/opt/ros/iron/share/xacro/cmake)
+[1.510s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.588s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.588s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.588s] -- Added test 'lint_cmake' to check CMake code style
+[1.589s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.590s] -- Added test 'xmllint' to check XML markup files
+[1.592s] -- Configuring done
+[1.599s] -- Generating done
+[1.602s] -- Build files have been written to: /home/canveo/turtlebot_ws/build/turtlebot2_gazebo
+[1.613s] Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake /home/canveo/turtlebot_ws/src/turtlebot2_gazebo -DCMAKE_INSTALL_PREFIX=/home/canveo/turtlebot_ws/install/turtlebot2_gazebo
+[1.616s] Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_gazebo -- -j8 -l8
+[1.670s] Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/turtlebot2_gazebo -- -j8 -l8
+[1.713s] Invoking command in '/home/canveo/turtlebot_ws/build/turtlebot2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_gazebo
+[1.722s] -- Install configuration: ""
+[1.722s] -- Execute custom install script
+[1.722s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot2_gazebo
+[1.723s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot2_gazebo
+[1.723s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/environment/ament_prefix_path.sh
+[1.723s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/environment/ament_prefix_path.dsv
+[1.723s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/environment/path.sh
+[1.723s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/environment/path.dsv
+[1.724s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/local_setup.bash
+[1.724s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/local_setup.sh
+[1.724s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/local_setup.zsh
+[1.724s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/local_setup.dsv
+[1.724s] -- Symlinking: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/package.dsv
+[1.735s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/ament_index/resource_index/packages/turtlebot2_gazebo
+[1.735s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/cmake/turtlebot2_gazeboConfig.cmake
+[1.735s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/cmake/turtlebot2_gazeboConfig-version.cmake
+[1.736s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/package.xml
+[1.736s] -- Up-to-date symlink: /home/canveo/turtlebot_ws/install/turtlebot2_gazebo/share/turtlebot2_gazebo/launch/turtlebot2_gazebo.launch.py
+[1.738s] Invoked command in '/home/canveo/turtlebot_ws/build/turtlebot2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/canveo/turtlebot_ws/install/move_base:/opt/ros/iron /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/turtlebot2_gazebo

@@ -1,0 +1,4 @@
+Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_random_walker -- -j8 -l8
+Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker' returned '0': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_random_walker -- -j8 -l8
+Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_random_walker
+Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_random_walker' returned '0': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_random_walker

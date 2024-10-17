@@ -1,0 +1,1 @@
+/home/canveo/turtlebot_ws/build/kobuki_ros/ament_cmake_core/kobuki_rosConfig-version.cmake

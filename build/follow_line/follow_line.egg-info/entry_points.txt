@@ -1,0 +1,4 @@
+[console_scripts]
+follow_line_node = follow_line.follow_line_node:main
+pilotnet_turtle = follow_line.pilotnet_turtle:main
+
