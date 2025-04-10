@@ -1,0 +1,12 @@
+Ejecución del Robot
+
+ros2 launch kobuki_node kobuki_node-launch.py
+
+Cambiar de puerto USB
+/home/canveo/turtlebot_ws/src/kobuki_ros/kobuki_node/config/kobuki_node_params.yaml
+
+
+ros2 launch nav2_bringup navigation_launch.py
+
+
+leer sensor de corriente arduino (tasa de muestreo, comunicacio)

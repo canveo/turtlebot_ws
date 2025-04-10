@@ -1,0 +1,45 @@
+running develop
+Removing /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow-line.egg-link (link to .)
+running egg_info
+writing ../../build/follow_line/follow_line.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow_line/follow_line.egg-info/dependency_links.txt
+writing entry points to ../../build/follow_line/follow_line.egg-info/entry_points.txt
+writing top-level names to ../../build/follow_line/follow_line.egg-info/top_level.txt
+reading manifest file '../../build/follow_line/follow_line.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_line/follow_line.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/canveo/turtlebot_ws/build/follow_line/build
+creating /home/canveo/turtlebot_ws/build/follow_line/build/lib
+creating /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line
+copying follow_line/test_seguidor.py -> /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line
+copying follow_line/follow_path_pid.py -> /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line
+copying follow_line/move_turtle.py -> /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line
+copying follow_line/__init__.py -> /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line
+copying follow_line/pilotnet_turtle.py -> /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line
+running install
+running install_lib
+creating /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line
+copying /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line/test_seguidor.py -> /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line
+copying /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line/follow_path_pid.py -> /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line
+copying /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line/move_turtle.py -> /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line
+copying /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line/__init__.py -> /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line
+copying /home/canveo/turtlebot_ws/build/follow_line/build/lib/follow_line/pilotnet_turtle.py -> /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line
+byte-compiling /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line/test_seguidor.py to test_seguidor.cpython-310.pyc
+byte-compiling /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line/follow_path_pid.py to follow_path_pid.cpython-310.pyc
+byte-compiling /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line/move_turtle.py to move_turtle.cpython-310.pyc
+byte-compiling /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line/pilotnet_turtle.py to pilotnet_turtle.cpython-310.pyc
+running install_data
+copying resource/follow_line -> /home/canveo/turtlebot_ws/install/follow_line/share/ament_index/resource_index/packages
+copying package.xml -> /home/canveo/turtlebot_ws/install/follow_line/share/follow_line
+copying launch/tortuga.launch.py -> /home/canveo/turtlebot_ws/install/follow_line/share/follow_line
+copying launch/pilot_turtlebot.launch.py -> /home/canveo/turtlebot_ws/install/follow_line/share/follow_line
+copying launch/turtlebot_follow_line.launch.py -> /home/canveo/turtlebot_ws/install/follow_line/share/follow_line
+copying launch/follow_line.launch.py -> /home/canveo/turtlebot_ws/install/follow_line/share/follow_line
+running install_egg_info
+Copying ../../build/follow_line/follow_line.egg-info to /home/canveo/turtlebot_ws/install/follow_line/lib/python3.10/site-packages/follow_line-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_line_node script to /home/canveo/turtlebot_ws/install/follow_line/lib/follow_line
+Installing pilotnet_turtle script to /home/canveo/turtlebot_ws/install/follow_line/lib/follow_line
+writing list of installed files to '/home/canveo/turtlebot_ws/build/follow_line/install.log'
