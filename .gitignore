@@ -1,0 +1,51 @@
+# Ignore ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Colcon metadata
+.colcon/
+
+# VSCode config (opcional)
+.vscode/
+
+# Launch logs
+*.launch.py~
+
+# ROS bags (si usas grabaciones)
+*.bag
+*.bag.active
+*.db3
+
+# Modelos exportados o generados
+#*.urdf
+*.xacro~
+
+# Archivos temporales de editores
+*~
+*.swp
+*.swo
+.DS_Store
+
+# CSVs y sets temporales (opcional)
+*.csv
+*.npy
+*.pth
+*.onnx
+
+# Simulaciones o datasets locales
+simulation_data/
+dataset/
+
