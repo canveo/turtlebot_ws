@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/src/turtlebot2_bringup/launch/ekf_node.launch.py

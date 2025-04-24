@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/src/kobuki_core/include/kobuki_core/packets/dock_ir.hpp

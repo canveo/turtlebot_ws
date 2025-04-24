@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/build/turtlebot2_description/ament_cmake_core/turtlebot2_descriptionConfig.cmake

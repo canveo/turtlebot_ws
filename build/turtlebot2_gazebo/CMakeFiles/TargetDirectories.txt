@@ -1,9 +1,0 @@
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/uninstall.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/turtlebot2_gazebo_uninstall.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/test.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/edit_cache.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/rebuild_cache.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/list_install_components.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/install.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/install/local.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/CMakeFiles/install/strip.dir

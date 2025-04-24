@@ -1,9 +1,0 @@
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/uninstall.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/turtlebot2_bringup_uninstall.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/test.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/edit_cache.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/rebuild_cache.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/list_install_components.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/install.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/install/local.dir
-/home/canveo/turtlebot_ws/build/turtlebot2_bringup/CMakeFiles/install/strip.dir

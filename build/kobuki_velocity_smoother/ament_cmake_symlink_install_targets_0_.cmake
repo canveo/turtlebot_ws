@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/canveo/turtlebot_ws/build/kobuki_velocity_smoother/libkobuki_velocity_smoother.so" "TARGETS" "kobuki_velocity_smoother" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

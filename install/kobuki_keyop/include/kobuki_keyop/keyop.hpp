@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/src/kobuki_ros/kobuki_keyop/include/kobuki_keyop/keyop.hpp

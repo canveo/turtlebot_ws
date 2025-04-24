@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/build/cmd_vel_mux/ament_cmake_environment_hooks/local_setup.zsh

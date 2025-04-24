@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/src/kobuki_ros/kobuki_node/launch/kobuki_node-launch.py

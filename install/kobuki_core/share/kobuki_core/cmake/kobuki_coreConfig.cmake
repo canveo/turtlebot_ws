@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/build/kobuki_core/ament_cmake_core/kobuki_coreConfig.cmake

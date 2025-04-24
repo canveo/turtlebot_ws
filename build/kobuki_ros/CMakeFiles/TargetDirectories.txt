@@ -1,9 +1,0 @@
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/uninstall.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/kobuki_ros_uninstall.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/test.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/edit_cache.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/rebuild_cache.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/list_install_components.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/install.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/install/local.dir
-/home/canveo/turtlebot_ws/build/kobuki_ros/CMakeFiles/install/strip.dir

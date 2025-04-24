@@ -1,1 +1,0 @@
-/home/canveo/turtlebot_ws/build/turtlebot2_gazebo/ament_cmake_environment_hooks/local_setup.bash
