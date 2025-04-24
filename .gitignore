@@ -3,6 +3,10 @@ build/
 install/
 log/
 
+**/build/
+**/install/
+
+
 # Python cache
 __pycache__/
 *.pyc
