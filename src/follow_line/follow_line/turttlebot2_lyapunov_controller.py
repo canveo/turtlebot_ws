@@ -53,7 +53,7 @@ class TurtlebotTrajectoryFollower(Node):
         self.bumper_sub = self.create_subscription(BumperEvent, '/events/bumper', self.bumper_callback, 10)
 
         # Inicializar el controlador basado en Lyapunov
-        self.lyapunov_controller = LyapunovController(k_rho=0.8, k_alpha=1.5, k_beta=-0.6)
+        self.lyapunov_controller = LyapunovController(k_rho=1.3, k_alpha=1.5, k_beta=-0.4)
 
         self.command = Twist()
 
@@ -69,7 +69,7 @@ class TurtlebotTrajectoryFollower(Node):
         self.path.header.frame_id = "odom"
 
         # Timer para el lazo de control
-        self.timer = self.create_timer(0.1, self.control_loop)  # 0.1
+        self.timer = self.create_timer(0.033, self.control_loop)  # 0.1
 
         self.execution_stopped = False
 
@@ -127,7 +127,7 @@ class TurtlebotTrajectoryFollower(Node):
             if self.current_index >= len(self.waypoints_x):
                 self.get_logger().info("Trayectoria completada.")
                 self.publisher_.publish(Twist())  # Detener el robot
-                self.save_path_to_csv("robot_path_lyapunov_controller.csv")
+                self.save_path_to_csv("robot_path_lyapunov_controller_cuadrado_4.csv")
 
     def get_yaw_from_quaternion(self, orientation):
         siny_cosp = 2 * (orientation.w * orientation.z + orientation.x * orientation.y)

@@ -11,11 +11,12 @@ import math
 import time
 import csv
 import numpy as np
+from datetime import datetime
+import matplotlib.pyplot as plt
 
 # Importar el controlador Lyapunov
 from lyapunov_controller import LyapunovController
 
-import numpy as np
 
 class TrajectoryGenerator:
     def __init__(self, N_line=50, N_curve=50, L_U=1.0, P0=(1, 2)):
@@ -73,7 +74,7 @@ class TurtlebotTrajectoryFollower(Node):
         self.bumper_sub = self.create_subscription(BumperEvent, '/events/bumper', self.bumper_callback, 10)
 
         # Inicializar el controlador basado en Lyapunov
-        self.lyapunov_controller = LyapunovController(k_rho=2.0, k_alpha=1.5, k_beta=-0.6) # k_rho=1.4, k_alpha=1.5, k_beta=-0.6
+        self.lyapunov_controller = LyapunovController(k_rho=1.4, k_alpha=1.5, k_beta=-0.6)
 
         self.command = Twist()
 
@@ -89,9 +90,17 @@ class TurtlebotTrajectoryFollower(Node):
         self.path.header.frame_id = "odom"
 
         # Timer para el lazo de control
-        self.timer = self.create_timer(0.033, self.control_loop)  # 0.1
+        self.timer = self.create_timer(0.1, self.control_loop)  # 0.1
 
         self.execution_stopped = False
+        
+        # logs para registrar métricas del controlador Lyapunov
+        self.log_time = []
+        self.log_rho = []
+        self.log_alpha = []
+        self.log_beta = []
+        self.log_v = []
+        self.log_w = []
 
     def publish_desired_path(self):
         traj_x, traj_y, traj_yaw = self.trajectory.get_trajectory()
@@ -152,6 +161,15 @@ class TurtlebotTrajectoryFollower(Node):
         v, w, rho, alpha, beta = self.lyapunov_controller.compute_control(
             current_x, current_y, current_yaw, target_x, target_y, target_yaw
         )
+        
+        # Guardar métricas para graficar
+        self.log_time.append(current_time)
+        self.log_rho.append(rho)
+        self.log_alpha.append(alpha)
+        self.log_beta.append(beta)
+        self.log_v.append(v)
+        self.log_w.append(w)
+                
         self.v, self.w = v, w
 
         self.get_logger().info(f"v_l: {v} - v_w: {w}")
@@ -167,12 +185,16 @@ class TurtlebotTrajectoryFollower(Node):
         self.publisher_.publish(self.command)
 
         # Avanzar al siguiente waypoint si se está suficientemente cerca
-        if rho < 0.05:  # 0.05
+        if rho < 0.05:
             self.current_index += 1
             if self.current_index >= len(self.waypoints_x):
                 self.get_logger().info("Trayectoria completada.")
                 self.publisher_.publish(Twist())  # Detener el robot
-                self.save_path_to_csv("robot_path_lyapunov_controller_curva_4.csv")
+                self.save_path_to_csv("robot_path_lyapunov_controller.csv")
+                self.save_lyapunov_logs_to_csv()
+                self.plot_lyapunov_metrics()
+
+
 
     def get_yaw_from_quaternion(self, orientation):
         siny_cosp = 2 * (orientation.w * orientation.z + orientation.x * orientation.y)
@@ -220,6 +242,59 @@ class TurtlebotTrajectoryFollower(Node):
             self.save_path_to_csv("robot_path_stopped.csv")
             self.get_logger().info(f"¡Bumper {bumper_name} activado! Deteniendo el robot.")
             self.destroy_node()
+            
+    def save_lyapunov_logs_to_csv(self):
+        timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"lyapunov_log_{timestamp_str}.csv"
+        with open(filename, 'w', newline='') as csvfile:
+            fieldnames = ['time', 'rho', 'alpha', 'beta', 'v', 'w']
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            writer.writeheader()
+            for i in range(len(self.log_time)):
+                writer.writerow({
+                    'time': self.log_time[i],
+                    'rho': self.log_rho[i],
+                    'alpha': self.log_alpha[i],
+                    'beta': self.log_beta[i],
+                    'v': self.log_v[i],
+                    'w': self.log_w[i],
+                })
+        self.get_logger().info(f"Métricas Lyapunov guardadas en {filename}")
+        
+    def plot_lyapunov_metrics(self):
+        
+        t0 = self.log_time[0]
+        tiempo = [t - t0 for t in self.log_time]
+
+        plt.figure(figsize=(12, 8))
+
+        # Errores
+        plt.subplot(3, 1, 1)
+        plt.plot(tiempo, self.log_rho, label='rho')
+        plt.plot(tiempo, self.log_alpha, label='alpha')
+        plt.plot(tiempo, self.log_beta, label='beta')
+        plt.title("Errores del controlador Lyapunov")
+        plt.legend()
+        plt.grid()
+
+        # Velocidades
+        plt.subplot(3, 1, 2)
+        plt.plot(tiempo, self.log_v, label='v (lineal)')
+        plt.ylabel("v (m/s)")
+        plt.grid()
+        plt.legend()
+
+        plt.subplot(3, 1, 3)
+        plt.plot(tiempo, self.log_w, label='w (angular)', color='purple')
+        plt.xlabel("Tiempo (s)")
+        plt.ylabel("w (rad/s)")
+        plt.grid()
+        plt.legend()
+
+        plt.tight_layout()
+        plt.show()
+
+
 
 def main(args=None):
     rclpy.init(args=args)

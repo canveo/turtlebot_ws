@@ -1,4 +1,0 @@
-Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_velocity_smoother': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_velocity_smoother -- -j8 -l8
-Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_velocity_smoother' returned '0': /usr/bin/cmake --build /home/canveo/turtlebot_ws/build/kobuki_velocity_smoother -- -j8 -l8
-Invoking command in '/home/canveo/turtlebot_ws/build/kobuki_velocity_smoother': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_velocity_smoother
-Invoked command in '/home/canveo/turtlebot_ws/build/kobuki_velocity_smoother' returned '0': /usr/bin/cmake --install /home/canveo/turtlebot_ws/build/kobuki_velocity_smoother
